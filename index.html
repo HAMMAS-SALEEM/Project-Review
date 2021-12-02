@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./style.css' rel='stylesheet'>
+    <title>Survey Form</title>
+    </head>
+    <body> 
+        <h1 id='title'>freeCodeCamp Survey Form</h1>
+        <p id='h1'>Thank you for taking time to help us improve the platform</p>
+        <form id="survey-form">
+        <label for='name' id='name-label'>Name:</label>
+        <input id="name" type="text" placeholder='Enter your name'><br><br>
+        <label for='email' id='email-label'>Email:</label>
+        <input id="email" type="text" placeholder='Enter your email' ><br><br>
+        <label for="number" id='number-label'>Number:</label>
+        <input id="number" type="text" placeholder='Enter your phone number' ><br><br>
+        <select id="dropdown">
+            <option value="country">Cameroon</option>
+             <option value="country">Pakistan</option>
+          </select>
+          <p>Would you recommend Microverse to your friends and people around?</p>
+          <input id="a1" type="radio">
+          <label class="Definitely" for='a1'>Maybe</label><br><br>
+          <input id="a2" type="radio">
+          <label class="Definitely" for='a2'>Definitely</label><br><br>
+          <input id="a3" type="radio">
+          <label class="Definitely" for='a3'>Don't think so</label><br><br>
+          <p>Check these boxes</p>
+          <input type='checkbox' id='2'>
+          <label for='2'>Are you a programmer?</label><br><br>
+          <input type='checkbox' id='3'>
+          <label for='3'>Do you have any job</label><br><br>
+          <input type='checkbox' id='4'>
+          <label for='4'>Is the job remote</label><br><br>
+          <p>Anything you wanna add?</p>
+          <textarea name='desc' id='a' cols=30 rows=10></textarea>
+          <br><br>
+          <input type="submit" id='submit'>
+          </form>
+      </body>
+  </html>
